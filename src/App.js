@@ -14,7 +14,7 @@ import cashImage from './assets/cash-crop.jpeg';
 import seedImage from './assets/Seed-farm.jpg';
 import consultImage from './assets/consult-farm.jpg';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:7000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://farmershelpline.netlify.app/';
 
 const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
